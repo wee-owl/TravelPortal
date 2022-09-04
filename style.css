@@ -78,6 +78,8 @@ input, button {
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     background: rgba(41,41,41,0.3);
@@ -574,8 +576,7 @@ input, button {
 
 .modal__window {
     position: absolute;
-    left: 50%;
-    top: 10%;
+    top: 5%;
     max-width: 650px;
     padding: 25px 45px 23px 45px;
     background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
@@ -585,7 +586,6 @@ input, button {
     visibility: hidden;
     opacity: 1;
     z-index: 2;
-    transform: translate(-50%, -50%);
 }
 
 .login, .regin {
