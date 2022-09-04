@@ -59,7 +59,7 @@ input, button {
 }
 
 .stop__active {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .background {
